@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mini App de Productos</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h1>Mini App de Productos</h1>
+
+	<!-- Formulario para agregar productos -->
+	<form id="formulario">
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" required><br>
+		<label for="modelo">Modelo:</label>
+		<input type="text" id="modelo" required><br>
+		<label for="precio">Precio:</label>
+		<input type="number" id="precio" required><br>
+		<button type="submit">Agregar</button>
+	</form>
+
+	<!-- Lista de productos -->
+	<ul id="listaProductos"></ul>
+
+	<script src="app.js"></script>
+</body>
+</html>
